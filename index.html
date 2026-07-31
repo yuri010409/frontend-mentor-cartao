@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap');
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      background-color: hsl(47, 88%, 63%);
+      font-family: "Outfit", sans-serif;
+    }
+
+    .box{
+      max-width: 330px;
+      box-sizing: border-box;
+      padding: 18px;
+      border-radius: 12px;
+      box-shadow: 10px 10px 0px black;
+      background-color: #ffffff;
+
+    }
+
+    .box #ilustracao{
+      width: 100%;
+       border-radius: 12px;
+       display: block;
+
+    }
+
+    .box span{
+      display: inline-block;
+      margin-top: 20px;
+      padding: 6px 15px;
+      font-weight: bolder;
+      border-radius: 3px;
+      background-color:  hsl(47, 88%, 63%);
+      
+    }
+
+    .box #perfil{
+      width: 33px;
+    }
+    
+
+    .box .autor > span{
+      background-color: white;
+      font-style: normal;
+      padding: 0;
+      margin: 0;
+    }
+
+    .autor{
+      display: flex; 
+      align-items: center;
+      gap: 12px;
+
+    }
+
+    .autor #perfil {
+      width: 32px;
+      height: 32px;
+      display: block;
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="box">
+    <img id="ilustracao" src="assets/images/illustration-article.svg" alt="ilustracao">
+    <span id="">Learning</span>
+
+    <p>Published 21 Dec 2023</p>
+
+    <h2>HTML & CSS foudations</h2>
+
+    <p>These languages are the backbone of every website, defining structure, content, and presentatio.</p>
+
+    <address class="autor">
+      <img id="perfil" src="assets/images/image-avatar.webp" alt="perfil">
+    <span id="name">Greg Hooper</span>
+    </address>
+
+  </div>
+</body>
+</html>
